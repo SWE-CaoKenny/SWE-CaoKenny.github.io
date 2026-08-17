@@ -136,6 +136,17 @@ const LEADERSHIP = [
       "Organized campus-wide hackathons resulting in a thirty percent increase in student participation.",
     ],
   },
+  {
+    org: "Build with Gemini × XPRIZE Hackathon",
+    role: "Technical Team Lead",
+    period: "August 2026",
+    location: "",
+    bullets: [
+      "Led a team of 3 students in developing an AI-powered web interface that helps users translate web applications, including restaurant menus, pricing, and other digital content.",
+      "Integrated Google Gemini to provide real-time translation and improve accessibility for users interacting with web-based applications.",
+      "Coordinated technical development, delegated responsibilities, and guided the team from ideation through prototype development and final submission.",
+    ],
+  },
 ];
 
 // ---------- Rendering ----------
