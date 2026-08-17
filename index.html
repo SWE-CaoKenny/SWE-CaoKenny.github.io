@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kenny Cao — Software Developer</title>
+  <meta name="description" content="Portfolio of Kenny Cao, a Mathematics-Computer Science student focused on software development." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#home" class="logo">KennyCao<span>.dev</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO / ABOUT -->
+    <section id="home" class="hero container">
+      <p class="eyebrow">Hi, I'm</p>
+      <h1>Kenny Cao</h1>
+      <h2 class="subtitle">Software Developer &middot; Math-CS @ UC San Diego</h2>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section container">
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a Mathematics-Computer Science student at UCSD who loves building full-stack
+          projects and turning ideas into working software. Outside of code, I spend my free time
+          playing piano and violin, and listening to artists like The Rolling Stones, The Smiths,
+          Bon Jovi, and Nirvana.</p>
+          <img src="assets/img/shin.jpg" alt="Kenny Cao" class="about-photo" />
+        </div>
+        <div class="about-facts">
+          <ul>
+            <li><strong>Location:</strong> La Jolla, CA</li>
+            <li><strong>Education:</strong> B.S. Mathematics-Computer Science — UC San Diego (Expected June 2029)</li>
+            <li><strong>Year:</strong> Second Year</li>
+            <li><strong>Focus:</strong> Full-stack development &amp; applied AI / agentic systems</li>
+            <li><strong>Currently:</strong> Software Engineering Intern @ Stealth Startup</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section container">
+      <h2 class="section-title">Experience</h2>
+      <div class="experience-list" id="experienceList">
+        <!-- Populated by assets/js/main.js from the EXPERIENCE data array (edit there) -->
+      </div>
+
+      <h3 class="section-subheading">Leadership</h3>
+      <div class="experience-list" id="leadershipList">
+        <!-- Populated by assets/js/main.js from the LEADERSHIP data array (edit there) -->
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid" id="skillsGrid">
+        <!-- Populated by assets/js/main.js from the SKILLS data array (edit there) -->
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-subtitle">
+        <!-- PLACEHOLDER --> A few things I've built. More on my
+        <a href="https://github.com/SWE-CaoKenny" target="_blank" rel="noopener">GitHub</a>.
+      </p>
+      <div class="projects-grid" id="projectsGrid">
+        <!-- Populated by assets/js/main.js from the PROJECTS data array (edit there) -->
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-subtitle">
+        <!-- PLACEHOLDER --> Feel free to reach out — always open to chatting about
+        internships, new-grad roles, or interesting projects.
+      </p>
+      <p class="contact-email">
+        <a href="mailto:caokenny0705@gmail.com">caokenny0705@gmail.com</a>
+      </p>
+      <div class="contact-links">
+        <a href="mailto:caokenny0705@gmail.com" class="btn btn-primary">Email Me</a>
+        <a href="https://github.com/SWE-CaoKenny" target="_blank" rel="noopener" class="btn btn-secondary">GitHub</a>
+        <a href="https://linkedin.com/in/kennycaoswe/" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Kenny Cao. Built with HTML, CSS &amp; JS.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
