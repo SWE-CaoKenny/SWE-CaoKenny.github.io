@@ -105,11 +105,10 @@ const EXPERIENCE = [
     location: "",
     bullets: [
       "Created an invoicing system for subscription services that managed and printed monthly customer invoices, increasing conversion rate by 15%.",
-      "Collaborated with graphic design and QA teams to develop and launch a new application 6 months ahead of schedule.",
+      "Collaborated with graphic design and QA teams to develop and launch a new application 1-2 months ahead of schedule.",
       "Wrote reusable unit test documents to ensure quality control, increasing bug-detection efficiency by over 35%.",
       "Analyzed client requirements to determine, recommend, and plan the redesign of a new API; presented findings to the CTO.",
-      "Analyzed user needs and software requirements to assess design feasibility, completing the project 3 weeks ahead of the target date.",
-      "Released and updated 15+ custom .NET applications for clients in the health industry.",
+      "Released and updated 15+ custom .NET applications for clients across various business industries, completing projects weeks ahead of target deadlines.",
     ],
   },
   {
@@ -120,7 +119,7 @@ const EXPERIENCE = [
     bullets: [
       "Wrote Python and JavaScript libraries to display real-time pricing via Skyscanner's flight pricing API, increasing customer satisfaction.",
       "Implemented a new responsive website approach, increasing mobile traffic by 22%.",
-      "Partnered with back-end developers to build dynamic web pages using JavaScript, increasing website leads by 15%.",
+      "Partnered with back-end developers to build dynamic web pages using React and Node.js/Next.js, increasing website leads by 15%.",
       "Collaborated on APIs and managed software workflow using Scrum methodology, increasing task success rate by 25%.",
     ],
   },
