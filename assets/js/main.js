@@ -73,6 +73,14 @@ const PROJECTS = [
     repo: "#", // PLACEHOLDER
     demo: "",
   },
+  {
+    title: "Budget Helper",
+    description:
+      "Zero-backend personal finance tracker architected as a single self-contained HTML app for full offline functionality and total data privacy — no server, no accounts, no third-party analytics. Features real-time balance reconciliation across cash, bank, and savings accounts, a recurring subscriptions tracker, and seasonal income forecasting (e.g. tax returns), all persisted client-side via localStorage. Deployed publicly through GitHub Pages CI.",
+    tags: ["JavaScript", "HTML/CSS", "localStorage", "GitHub Pages"],
+    repo: "#",
+    demo: "",
+  },
 ];
 
 const EXPERIENCE = [
@@ -189,6 +197,7 @@ function renderProjects() {
           ${project.tags.map((tag) => `<span>${tag}</span>`).join("")}
         </div>
         <div class="project-links">
+          ${project.repo && project.repo !== "#" ? `<a href="${project.repo}" target="_blank" rel="noopener">Source</a>` : ""}
           ${project.demo ? `<a href="${project.demo}" target="_blank" rel="noopener">Live Demo</a>` : ""}
         </div>
       </div>

@@ -395,6 +395,20 @@ a:hover { color: var(--accent-hover); }
   min-height: 180px;
 }
 
+/* ---------- Resume ---------- */
+
+.resume-preview {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  background: var(--card-bg);
+}
+
 /* ---------- Contact ---------- */
 
 .contact-email {
