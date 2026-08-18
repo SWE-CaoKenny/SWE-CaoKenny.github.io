@@ -36,7 +36,7 @@ const SKILLS = [
   },
   {
     category: "Coursework",
-    tags: ["Data Structures & Algorithms", "Databases", "Operating Systems"],
+    tags: ["Data Structures & Algorithms", "Object-Oriented Programming", "Databases", "Operating Systems"],
   },
 ];
 
