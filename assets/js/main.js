@@ -78,7 +78,15 @@ const PROJECTS = [
     description:
       "Zero-backend personal finance tracker architected as a single self-contained HTML app for full offline functionality and total data privacy — no server, no accounts, no third-party analytics. Features real-time balance reconciliation across cash, bank, and savings accounts, a recurring subscriptions tracker, and seasonal income forecasting (e.g. tax returns), all persisted client-side via localStorage. Deployed publicly through GitHub Pages CI.",
     tags: ["JavaScript", "HTML/CSS", "localStorage", "GitHub Pages"],
-    repo: "#",
+    repo: "https://github.com/SWE-CaoKenny/budget-helper",
+    demo: "https://swe-caokenny.github.io/budget-helper/",
+  },
+  {
+    title: "Energy Drink Deals",
+    description:
+      "Automated price-tracking tool that scrapes Amazon and Target for discounts across 10 energy drink brands, computing discount percentage from each store's own sale price or from personally-observed price history when no sale price is shown. Built with Playwright for JS-rendered search pages, includes a Flask dashboard with a live filter slider, and sends Gmail alerts only for genuinely new qualifying deals to avoid repeat notifications.",
+    tags: ["Python", "Playwright", "Flask", "Web Scraping", "SMTP"],
+    repo: "https://github.com/SWE-CaoKenny/energy-drink-deals",
     demo: "",
   },
 ];
