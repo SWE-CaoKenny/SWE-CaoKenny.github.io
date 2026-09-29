@@ -27,8 +27,10 @@ const SKILLS = [
       "Terraform",
       "gRPC",
       "PyTorch",
+      "Railway",
       "Git",
       "GitHub",
+      "Claude Code",
       "VS Code",
       "Android Studio",
       "Linux",
@@ -41,6 +43,14 @@ const SKILLS = [
 ];
 
 const PROJECTS = [
+  {
+    title: "Triton Tracker: Canvas & Class Schedule Dashboard",
+    description:
+      "Live web app that turns a student's Canvas calendar feed into a WebReg-style dashboard of every assignment, quiz and exam, ranked by urgency and by grade impact from syllabus weights. Pasting a UCSD Class Planner link adds a weekly class grid with rooms, instructors, conflict detection, walking times and a campus map. Runs on a zero-dependency Node.js server with an SSRF-hardened, rate-limited fetch proxy that stores no user data; deployed on Railway via GitHub.",
+    tags: ["JavaScript", "Node.js", "HTML/CSS", "iCalendar (.ics)", "MapLibre GL", "OpenStreetMap", "Railway", "Claude Code"],
+    repo: "https://github.com/SWE-CaoKenny/triton-canvas-tracker",
+    demo: "https://triton-canvas-tracker-production.up.railway.app",
+  },
   {
     title: "Distributed Real-Time Trading Engine",
     description:
